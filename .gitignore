@@ -1,0 +1,15 @@
+# Ignore virtual environments
+venv/
+
+# Ignore pyinstaller output
+dist/
+build/
+
+# Ignore python cache
+__pycache__/
+
+# Ignore spec files (pyinstaller)
+*.spec
+
+# Ignore .exe files if you accidentally generated
+*.exe
