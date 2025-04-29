@@ -21,8 +21,8 @@ This tool helps you quickly merge multiple data files by allowing you to select 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/h1008h1008/accounting.git
+   cd accounting
    ```
 
 2. Install the required packages:
@@ -34,7 +34,7 @@ This tool helps you quickly merge multiple data files by allowing you to select 
 
 1. Run the script:
    ```bash
-   python merge_tool.py
+   python data-aggregate.py
    ```
 
 2. Follow the on-screen instructions:
@@ -53,7 +53,7 @@ This tool helps you quickly merge multiple data files by allowing you to select 
 
 2. Build the `.exe`:
    ```bash
-   pyinstaller --onefile --noconsole merge_tool.py
+   pyinstaller --onefile --noconsole data-aggregate.py
    ```
 
 3. The output executable will be located inside the `dist/` folder.
@@ -64,36 +64,6 @@ This tool helps you quickly merge multiple data files by allowing you to select 
      ```bash
      pyinstaller --onefile --noconsole --upx-dir "C:\path\to\upx" merge_tool.py
      ```
-
-## Project Structure
-
-```
-merge-tool-project/
-├── merge_tool.py
-├── README.md
-├── requirements.txt
-├── .gitignore
-```
-
-## .gitignore Settings
-
-```
-# Virtual environments
-venv/
-
-# PyInstaller output
-dist/
-build/
-
-# Python cache
-__pycache__/
-
-# PyInstaller spec files
-*.spec
-
-# Executables
-*.exe
-```
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
